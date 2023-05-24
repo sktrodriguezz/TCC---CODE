@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../model/css/style.css">
+ <link rel="stylesheet" href="../model/css/bootstrap.css">
+
+    <title>Nobre Rua - Entre</title>
+  </head>
+  <body>
+    
+    <section class="form my-4 mx-5">
+        <div class="container">
+         <div class="row no-gutters">
+            <div class="col-lg-5">
+                <img src="../model/img/logo.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-7 px-5 pt-5">
+              <h1 class="font-weight-bold py-3 ">Nobre Rua</h1>
+              <h4 class="font-weight-bold ">Entre em sua conta</h4>
+              <form action="../controller/contato/login.php" method="POST">
+                
+                <div class="form-row">
+                    <div class="col-lg-7">
+                        <input type="email" id="email" placeholder="Email" class="form-control my-3 p-4 titulo-form">  
+                  </div>  
+                </div>
+
+                <div class="form-row">
+                    <div class="col-lg-7">
+                        <input type="password" id="senha" placeholder="*******" class="form-control my-3 p-4 titulo-form">    
+                  </div>  
+                </div>
+
+                <div class="form-row">
+                    <div class="col-lg-7">
+                        <button type="submit" class="btn1 mt-3 mb-5 btnLogin titulo-form" >Entrar</button>
+                    </div>  
+                </div>
+                <a class="titulo-form" href="#"> Esqueceu a senha?</a>
+                <p class="titulo-form">Não possui uma conta? <a class="titulo-form" href="../view/cadastro.html"> Cadastre-se</a></p>
+              </form>  
+            </div>
+         </div>   
+      </div>
+    </section>
+
+    <script src="../cmodeljquery/login.js"></script>
+    <script src="../cmodeljs/jquery-3.6.4.min.js"></script>
+  <script src="../comodels/bootstrap.js"></script>
+  </body>
+</html>

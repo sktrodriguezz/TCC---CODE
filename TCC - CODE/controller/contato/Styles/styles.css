@@ -1,0 +1,22 @@
+/*Está pagina css pertence a Salvar.php */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background: rgb(0, 0, 0) !important;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h4 {
+    color: #ffffff;
+    text-align: center;
+}
